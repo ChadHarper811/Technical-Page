@@ -1,22 +1,29 @@
 html {
 scroll-behavior: smooth;
+scroll-padding-top: 70px;
 }
 
 body {
 margin: 0;
-padding: 5px;
+padding-left: 15px;
 background-image: linear-gradient(to bottom right, lightblue, orange);
 }
 
-#narbar {
-display: inline-block;
+.navbar {
+position: fixed;
+width: 100%;
+margin-top: -10px;
+background-color: lightblue;
 }
 
 .title {
-margin: 10px;
+position: fixed;
+width: 380px;
+height: 40px;
+left: 40%;
+right: 40%;
+margin-top: 20px;
 padding-top: 5px;
-vertical-align: top;
-display: inline-block;
 }
 
 .dropdown {
@@ -25,8 +32,7 @@ display: inline-block;
 }
 
 .dropdown-btn {
-margin: 10px;
-float: left;
+margin: 20px 10px 10px 10px;
 background-color: lightblue;
 padding: 12px 16px;
 font-size: 16px;
@@ -38,7 +44,7 @@ display: none;
 position: absolute;
 background-color: lightblue;
 min-width: 320px;
-box-shadow: 0px 8px 16px 0px black;
+box-shadow: 0px 9px 8px 0px black;
 z-index: 1;
 }
 
@@ -65,6 +71,10 @@ background-color: lightgray;
 
 ul {
 list-style: none;
+}
+
+#main-doc {
+padding-top: 60px;
 }
 
 section {
