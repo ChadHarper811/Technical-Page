@@ -5,7 +5,7 @@ scroll-padding-top: 70px;
 
 body {
 margin: 0;
-padding-left: 15px;
+
 background-image: linear-gradient(to bottom right, lightblue, orange);
 }
 
@@ -75,6 +75,8 @@ list-style: none;
 
 #main-doc {
 padding-top: 60px;
+padding-left: 20px;
+padding-right: 15px;
 }
 
 section {
@@ -109,7 +111,7 @@ text-shadow: -1px -1px 1px black, -1px 1px 1px black, 1px -1px 1px black, 1px 1p
 }
 
 .number {
-color: red;
+color: white;
 position: absolute;
 text-align: center;
 font-weight: bold;
@@ -124,4 +126,18 @@ margin: -1px 0px 0px 4px;
 .dice-wide {
   background-color: black;
   padding: 8px;
+}
+
+.keep {
+margin: 2px;
+text-shadow: -1px -1px 1px #005996, -1px 1px 1px #005996, 1px -1px 1px #005996, 1px 1px 1px #005996, -2px -2px 1px #005996, -2px 2px 1px #005996, 2px -2px 1px #005996, 2px 2px 1px #005996;
+}
+
+.discard {
+margin: 2px;
+text-shadow: -1px -1px 1px #a0171c, -1px 1px 1px #a0171c, 1px -1px 1px #a0171c, 1px 1px 1px #a0171c, -2px -2px 1px #a0171c, -2px 2px 1px #a0171c, 2px -2px 1px #a0171c, 2px 2px 1px #a0171c;
+}
+
+.setup {
+margin-top: 20px;
 }
