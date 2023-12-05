@@ -1,11 +1,11 @@
 html {
 scroll-behavior: smooth;
 scroll-padding-top: 70px;
+line-height: 1.5;
 }
 
 body {
 margin: 0;
-
 background-image: linear-gradient(to bottom right, lightblue, orange);
 }
 
@@ -116,12 +116,12 @@ margin: -1px 0px 0px 4px;
 
 .dice {
   background-color: black;
-  padding: 6px;
+  padding: 3px 5px 3px 5px;
 }
 
 .dice-wide {
   background-color: black;
-  padding: 8px;
+  padding: 3px 7px 3px 7px;
 }
 
 .keep {
