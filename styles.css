@@ -29,6 +29,7 @@ body {
 .dropdown {
   position: relative;
   display: inline-block;
+  list-style: none;
 }
 
 .dropdown-btn {
@@ -67,10 +68,6 @@ text-decoration: none;
 a:hover, a:active {
   color: gold;
   background-color: lightgray;
-}
-
-ul {
-  list-style: none;
 }
 
 #main-doc {
@@ -222,3 +219,4 @@ margin-top: 20px;
   display: flex;
   flex-wrap: nowrap;
 }
+
