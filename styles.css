@@ -114,6 +114,14 @@ section {
   margin: -1px 0px 0px 4px;
 }
 
+.morePlayers {
+  font-size: 14px;
+  position: absolute;
+  text-align: center;
+  font-weight: bold;
+  margin: 14px 0px 0px 3px;
+}
+
 .dice {
   background-color: black;
   padding: 3px 5px 3px 5px;
@@ -171,7 +179,6 @@ margin-top: 20px;
 
 .example_title {
   margin-top: -20px;
-  font-size: 20px; !important
 }
 
 .ex_border {
@@ -201,4 +208,17 @@ margin-top: 20px;
 
 .note_text {
   display: inline;
+}
+
+.fa-users-line {
+  font-size: 20px;
+}
+
+.max-player-icon {
+ margin-right: 5px;
+}
+
+.flex-container {
+  display: flex;
+  flex-wrap: nowrap;
 }
