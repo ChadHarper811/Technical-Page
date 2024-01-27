@@ -220,3 +220,22 @@ margin-top: 20px;
   flex-wrap: nowrap;
 }
 
+.effects {
+  background-color: #a0171c;
+  color: white;
+  padding: 10px;
+  outline: 4px dashed white;
+  border-radius: 20px;
+  width: fit-content;
+}
+
+.border-white {
+  text-shadow: -1px -1px 1px white, -1px 1px 1px white, 1px -1px 1px white, 1px 1px 1px white;
+}
+
+.fa-ban {
+  position: absolute;
+  text-align: center;
+  font-weight: bold;
+  margin: 10px 0px 0px -18px;
+}
