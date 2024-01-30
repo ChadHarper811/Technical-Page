@@ -232,6 +232,10 @@ section {
   width: fit-content;
 }
 
+.power_cards {
+  background-color: #005996; !important
+}
+
 .border-white {
   text-shadow: -1px -1px 1px white, -1px 1px 1px white, 1px -1px 1px white, 1px 1px 1px white;
 }
