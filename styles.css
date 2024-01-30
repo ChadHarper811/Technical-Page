@@ -233,7 +233,11 @@ section {
 }
 
 .power_cards {
-  background-color: #005996; !important
+  background-color: rgb(113, 125, 141) !important;
+}
+
+.power_cards .highlight {
+  margin: 0px 0px -15px 0px;
 }
 
 .border-white {
