@@ -14,17 +14,16 @@ body {
   width: 100%;
   margin-top: -10px;
   background-color: lightblue;
+  height: 70px;
   z-index: 1;
 }
 
 .title {
   position: fixed;
   width: 440px;
-  height: 40px;
-  left: 35%;
-  right: 35%;
-  margin-top: 20px;
-  padding-top: 5px;
+  height: 30px;
+  left: calc((100vw - 440px)/2); /* took total width - title width /2 = even spacing for sides */
+  margin-top: calc((70px - 30px)/2);
 }
 
 .dropdown {
@@ -34,7 +33,9 @@ body {
 }
 
 .dropdown-btn {
-  margin: 20px 10px 10px 10px;
+  margin-top: calc((70px - 16px - 16px - 2px)/2); /*took total height - font size - padding top - padding bottom - border = even spacing for margin*/
+  margin-left: 10px;
+  margin-bottom: 8px;
   background-color: lightblue;
   padding: 12px 16px;
   font-size: 16px;
@@ -46,7 +47,7 @@ body {
   position: absolute;
   background-color: lightblue;
   min-width: 320px;
-  box-shadow: 0px 9px 8px 0px black;
+  box-shadow: 5px 7px 6px 0px rgb(53, 53, 53);
   z-index: 1;
 }
 
@@ -54,7 +55,7 @@ body {
   display: block;
 }
 
-a:link, a:visited {
+a:link, a:visited{
   display: block;
   padding: 12px 16px;
   margin: 0 0 0 -40px;
@@ -63,7 +64,7 @@ a:link, a:visited {
   font-size: 16px;
   color: white;
   text-shadow: -1px -1px 1px black, -1px 1px 1px black, 1px -1px 1px black, 1px 1px 1px black;
-text-decoration: none;
+  text-decoration: none;
 }
 
 a:hover, a:active {
@@ -249,4 +250,112 @@ section {
   text-align: center;
   font-weight: bold;
   margin: 10px 0px 0px -18px;
+}
+
+@media screen and (max-width: 1200px) {
+  .title {
+    width: 400px;
+    height: 28px;
+    left: calc((100vw - 400px)/2);
+    margin-top: calc((70px - 28px)/2);
+  }
+
+  .section-title {
+    font-size: 28px !important;
+  }
+
+  .dropdown-btn {
+    margin-top: calc((70px - 15px - 15px - 2px)/2);
+    padding: 11px 15px;
+    font-size: 15px;
+    margin-bottom: 10px;
+  }
+
+  .highlight {
+    font-size: 18px;
+  }
+
+  .sub_section .sub_overview{
+    font-size: 18px;
+  }
+  
+  a:link, a:visited{
+    padding: 10px 14px;
+    font-size: 14px;
+  }
+
+  .dropdown-links {
+    min-width: 270px;
+  }
+}
+
+@media screen and (max-width: 760px) {
+  .title {
+    height: 26px;
+    margin-top: calc((70px - 26px)/2);
+  }
+
+  .section-title {
+    font-size: 26px !important;
+  }
+
+  .dropdown-btn {
+    margin-top: calc((70px - 14px - 14px - 2px)/2);
+    padding: 10px 14px;
+    font-size: 14px;
+  }
+
+  .highlight {
+    font-size: 17px;
+  }
+
+  .sub_section .sub_overview{
+    font-size: 17px;
+  }
+
+  a:link, a:visited{
+    padding: 8px 12px;
+    font-size: 13px;
+  }
+
+  .dropdown-links {
+    min-width: 250px;
+  }
+}
+
+
+@media screen and (max-width: 580px) {
+  .title {
+    width: 342px;
+    left: calc((100vw - 342px)/2);
+    height: 24px;
+    margin-top: calc((70px - 24px)/2);
+  }
+
+  .section-title {
+    font-size: 24px !important;
+  }
+
+  .dropdown-btn {
+    margin-top: calc((70px - 13px - 13px - 2px)/2);
+    padding: 9px 13px;
+    font-size: 13px;
+  }
+
+  .highlight {
+    font-size: 16px;
+  }
+
+  .sub_section .sub_overview{
+    font-size: 16px;
+  }
+
+  a:link, a:visited{
+    padding: 6px 10px;
+    font-size: 12px;
+  }
+
+  .dropdown-links {
+    min-width: 230px;
+  }
 }
