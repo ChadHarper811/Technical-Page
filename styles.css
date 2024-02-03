@@ -7,6 +7,7 @@ html {
 body {
   margin: 0;
   background-image: linear-gradient(to bottom right, lightblue, orange);
+  text-align: center;
 }
 
 .navbar {
@@ -16,6 +17,7 @@ body {
   background-color: lightblue;
   height: 70px;
   z-index: 1;
+  text-align: left;
 }
 
 .title {
@@ -154,6 +156,7 @@ section {
   border-radius: 20px;
   width: fit-content;
   padding: 0 10px 0 10px;
+  margin: auto;
 }
 
 .sub_overview {
@@ -176,6 +179,7 @@ section {
   border-radius: 5px;
   width: fit-content;
   padding: 5px;
+  margin: auto;
 }
 
 .example_title {
@@ -194,6 +198,7 @@ section {
   border-radius: 5px;
   width: fit-content;
   padding: 5px;
+  margin: auto;
 }
 
 .note_title {
@@ -231,6 +236,7 @@ section {
   outline: 4px dashed white;
   border-radius: 20px;
   width: fit-content;
+  margin: auto;
 }
 
 .power_cards {
