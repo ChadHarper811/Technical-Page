@@ -164,6 +164,7 @@ section {
   color: white;
   font-size: 20px; 
   font-weight: bold;
+  text-align: left;
 }
 
 .sub_section {
@@ -171,6 +172,7 @@ section {
   font-weight: bolder;
   text-transform: uppercase;
   margin-bottom: -10px;
+  text-align: center;
 }
 
 .example {
@@ -237,10 +239,12 @@ section {
   border-radius: 20px;
   width: fit-content;
   margin: auto;
+  text-align: left;
 }
 
 .power_cards {
   background-color: rgb(113, 125, 141) !important;
+  text-align: center;
 }
 
 .power_cards .highlight {
